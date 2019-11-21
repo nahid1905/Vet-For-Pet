@@ -1,0 +1,659 @@
+body{
+	background-image: url(../images/bg.jpg);
+	background-attachment: fixed;
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #888;
+}
+
+/* INDEX HTML */
+
+/* MENU SECTION */
+.header{
+	position: relative;
+	width: 100%;
+	padding-right: 20px;
+	margin-top: 100px;
+}
+.header .left{
+	position: absolute;
+	background-color: #fff;
+}
+.header .left img{
+	width: 100%;
+	margin-top: -55px;
+}
+.header .left .menu ul{
+	margin-left: -20px;
+	padding-top: 40px;
+	display: block;
+	list-style: none;
+}
+.header .left .menu ul li{
+	line-height: 20px;
+	width: 90%;
+	position: relative;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.header .left .menu ul li a.active{
+	color: #86C775;
+}
+.header .left .menu ul li:not(:last-child){
+	border-bottom: 1px solid #f3f3f3;
+}
+.header .left .menu ul li a{
+	text-decoration: none;
+	color: #888888;
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transition: color 0.3s ease-out;
+}
+.header .left .menu ul li a:hover{
+	color: #86C775;
+}
+.header .left .menu ul li i{
+	top: 40%;
+	position: absolute;
+	right: 0;
+	font-size: 10px;
+}
+.header .left hr{
+	color: #888888;
+}
+.header .right{
+	margin-left: -15px;
+	background-color: #fff;
+	width: 100%;
+	margin-bottom: 100px;
+	padding: 20px;
+}
+.header .slider img{
+    width: 100%;
+    height: 100%;
+}
+/* End of the Menu section */
+
+
+/* Services section in Index Html*/
+.ourServices{
+	margin-bottom: 100px;
+	widows: 100%;
+	background-color: #fff;
+	height: 400px;
+}
+.ourServices>h2{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5em;
+    color: #86c775;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+/* End of the Services section in Index Html*/
+
+/* Contact section in Index Html*/
+.contact{
+	margin-bottom: 100px;
+}
+.contact h3{
+	font-family: 'Oswald', sans-serif;
+    color: #86C775;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.contact p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px;
+    color: #888;
+}
+.contact button{
+	display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #86c775;
+    color: #86c775;
+    background: transparent;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.contact button:hover{
+	background: #86c775;
+    color: #fff;
+}
+.contact span{
+	font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 1.5em;
+    color: #444;
+}
+
+/* End of the Contact section in Index Html*/
+
+/* Footer Section */
+
+.footer{
+	width: 100%;
+	background-color: #86c775;
+	height: 200px;
+}
+.footer img{
+	max-width: 115px;
+    margin-top: -38px;
+}
+.footer h1{
+	font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding: 20px 0 5px 0;
+    text-transform: uppercase;
+}
+.footer p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 3px;
+}
+.footer .icons ul{
+	list-style-type: none;
+	margin-left: -30px;
+}
+.footer .icons ul li{
+	display: inline-block;
+	color: #fff;
+    padding: 5px;
+    font-size: 20px;
+}
+.footer .icons ul li i:hover{
+	cursor: pointer;
+	color: #000;
+}
+.footer span{
+	color: #fff;
+    font-size: 12px;
+}
+
+/* End of the Footer Section */
+
+
+/* END OF INDEX HTML */
+
+/* ABOUT HTML */
+.right>h1{
+	font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #86c775;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f3f3f3;
+    position: relative;
+}
+.right>h1::after {
+	content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: #86C775;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.right .about p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px;
+    color: #888;
+}
+.right h3{
+	font-family: 'Oswald', sans-serif;
+    color: #86C775;
+    font-size: 24px;
+    margin-top: 40px;
+    padding-bottom: 15px;
+}
+.right .team img{
+	width: 100%;
+}
+.right .team .name{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #888;
+	margin-top: 20px;
+}
+.right .team .name p{
+	text-transform: uppercase;	
+}
+
+.right .table{
+	padding: 30px 0 !important;
+	width: 100%;
+	text-align: center;
+    margin-bottom: 20px;
+    background-color: #F9F9F9;
+	margin-bottom: 40px;
+}
+.right .table h4{
+	padding: 0;
+    font-size: 16px;
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.right .table h1{
+	font-family: 'Oswald', sans-serif;
+	padding: 20px 0 5px 0;
+    margin: 20px 0;
+    background-color: #86c775;
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.right .table h1 small{
+	font-size: 18px;
+}
+.right .table h1 small:first-child{
+	position: relative;
+    top: -17px;
+    font-size: 26px;
+}
+.right .table ul{
+	list-style: none;
+    padding: 0;
+    max-width: 240px;
+    margin: 10px auto;
+}
+.right .table ul li{
+	color: #888;
+    text-align: center;
+    padding: 12px 0;
+}
+.right .table ul li:not(:last-child){
+    border-bottom: 1px solid #ececec;
+}
+.right .table a{
+	display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #86c775;
+    color: #86c775;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+}
+.right .table a:hover{
+	background-color: #86c775;
+	color: #fff;
+}
+/* END OF ABOUT HTML*/
+
+
+/* SERVICE HTML */
+.right .services p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #888;
+}
+.right .content img{
+	margin-top: 30px;
+}
+.right .content img{
+	width: 100%;
+}
+.right .content h4{
+	color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+	margin-top: 15px;
+}
+.right .content p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px;
+    color: #888;
+}
+/* END OF SERVICE HTML*/
+
+/*BLOG HTML */
+.right .blogs img{
+	width: 100%;
+}
+.blogs ul{
+	margin-left: -40px;
+	margin-top: 10px;
+}
+.blogs ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 12px;
+    color: #888;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    padding-right: 10px;
+}
+.blogs .title{
+	margin-bottom: 40px;
+}
+.blogs .title h4{
+	color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 15px;
+    line-height: 1.5em;
+}
+.blogs .title p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px;
+    color: #888;
+}
+.blogs .title a{
+	text-decoration: none;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #86c775;
+    color: #86c775;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: all 0.3s ease-out;
+}
+.blogs .title a:hover{
+	background: #86c775;
+    color: #fff;
+}
+/*END OF BLOG HTML*/
+
+
+/* Gallery Html */
+.gallery p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px;
+    color: #888;
+}
+.gallery ul{
+	margin-left: -40px;
+	margin-top: 20px;
+}
+.gallery ul li{
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.gallery a{
+	text-transform: uppercase;
+	display: block;
+    text-decoration: none;
+    line-height: 20px;
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 10px 15px;
+    background: #f3f3f3;
+    transition: all .3s ease-out;
+}
+.gallery a:hover{
+	color: #fff;
+    background: #86c775;
+}
+.gallery a.active{
+	color: #fff;
+    background: #86c775;	
+}
+.gallery .images .figure{
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+.gallery .images .figure img{
+	width: 100%;
+	height: 100%;
+}
+.gallery .images .figure i{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: none;
+	color: #86c775;
+	font-size: 30px;
+	transition: all 0.3s ease-out;
+}
+.gallery .images .figure:hover i{
+	display: block;
+}
+/* End of Gallery Html*/
+
+
+/*Details html*/
+.imgDetail img{
+	width: 100%;
+}
+.imgDetail ul{
+	margin-left: -40px;
+	margin-top: 10px;
+}
+.imgDetail ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 12px;
+    color: #888;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.textDetail h2{
+	font-family: 'Oswald', sans-serif;
+    color: #86C775;
+    font-weight: 400;
+    font-size: 27px;
+    margin: 0;
+    position: relative;
+	padding-bottom: 15px;
+    line-height: 1.5em;
+}
+.textDetail p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px;
+    color: #888;
+}
+.comments h3{
+	font-family: 'Oswald', sans-serif;
+    color: #86C775;
+    font-size: 24px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.comments .cmnt{
+    padding-bottom: 30px;
+}
+.comments .cmnt .img img{
+	max-width: 100%;
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+}
+.comments .cmnt .text h5{
+	color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+    line-height: 1.5em;
+}
+.comments .cmnt .text h5 span{
+	font-size: 12px;
+    color: #888;
+    font-style: normal;
+    font-weight: 300;
+}
+.comments .cmnt .text p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px;
+    color: #888;
+}
+.sendComment{
+	margin-bottom: 40px;
+}
+.sendComment input{
+	border: 0;
+    border-bottom: 1px solid #f3f3f3;
+    outline: 0;
+    width: 50%;
+}
+.sendComment input:focus{
+	border: 0;
+    border-bottom: 1px solid green;
+    box-shadow: none;
+}
+.sendComment textarea{
+	border: 0;
+    border-bottom: 1px solid #f3f3f3;
+    outline: 0;
+    width: 50%;
+}
+.sendComment textarea:focus{
+	border: 0;
+    border-bottom: 1px solid green;
+    box-shadow: none;
+}
+.sendComment button{
+	display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #86c775;
+    color: #86c775;
+    background: transparent;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.sendComment button:hover{
+	background: #86c775;
+    color: #fff;
+}
+.sendComment input::placeholder,
+.sendComment textarea::placeholder{
+	color: #888;
+	margin-left: 0;
+	padding-left: 0;
+	font-size: 14px;
+}
+
+/*End of Details html*/
+
+/* Contact html */
+.office{
+	background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+	width: 100%;
+    color: #888;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+.office h3{
+	color: #86C775;
+    margin-bottom: 15px;
+    padding: 0;
+    margin: 0;
+}
+.office ul{
+	background-color: transparent;
+	padding: 20px 5px;
+	list-style: none;
+	padding-bottom: 0;
+}
+.office ul li{
+	min-width: 120px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+.office i{
+	padding-right: 5px;
+}
+.office a{
+	text-decoration: none;
+	color: #86C775;
+    font-weight: bold;
+}
+p.contact{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0 0 15px;
+    color: #888;
+}
+/* END OF Contact html */
+
+
+/* FOR  RESPONSIVE */
+

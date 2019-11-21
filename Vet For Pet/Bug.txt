@@ -1,0 +1,6 @@
+1) Menu fixed
+2) Menu elementlerine active class
+3)Slider
+4)Index.html
+5) Responsive
+6)Gallery.html -de javascript
